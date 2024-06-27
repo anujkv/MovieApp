@@ -212,9 +212,5 @@ fun DetailsScreen() {
         
         Spacer(modifier = Modifier.height(32.dp))
 
-
-        if (backDropImageState is AsyncImagePainter.State.Loading) {
-
-        }
     }
 }
